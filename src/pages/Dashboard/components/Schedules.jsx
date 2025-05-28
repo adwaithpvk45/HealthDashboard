@@ -64,7 +64,7 @@ export default function Schedule() {
         backgroundColor: "#f8fbff",
         borderTopRightRadius: "50px",
         borderBottomRightRadius: "50px",
-        height: "100vh",
+        // height: "100vh",
       }}
     >
       <div

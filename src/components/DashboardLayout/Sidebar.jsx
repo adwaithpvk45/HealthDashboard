@@ -13,7 +13,6 @@ export default function Sidebar() {
           padding: "50px 30px 80px 70px",
           borderTopLeftRadius: "50px",
           borderBottomLeftRadius: "50px",
-          height: "100vh",
           flexDirection: "column",
         }}
       >
