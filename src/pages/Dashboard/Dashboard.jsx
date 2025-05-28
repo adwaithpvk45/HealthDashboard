@@ -10,8 +10,8 @@ import anatomy from "../../assets/anatomy.png";
 
 export default function Dashboard() {
   return (
-    <div style={{ display: "flex" }}>
-      <div style={{ padding: "66px 30px 0px 30px" }}>
+    <div style={{ display: "flex",width:'100%'}}>
+      <div style={{ padding: "66px 30px 0px 30px",width:'50%' }}>
         <div style={{ display: "flex", gap: "10px" }}>
           <SearchBar />
           {/* <AvatarIcon /> */}
@@ -34,7 +34,7 @@ export default function Dashboard() {
                   border: "none",
                   backgroundColor: "inherit",
                   color: "blue",
-                  fontSize:'12px'
+                  fontSize: "12px",
                 }}
               >
                 <option>This Week</option>
@@ -43,19 +43,30 @@ export default function Dashboard() {
               </select>
             </div>
           </div>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex",width:'100%',height:'40%'}}>
             <div
               style={{
-                height: "310px",
-                width: "120px",
-                margin: "0px 40px 30px 20px",
-                backgroundColor:'#f8fbff',
-                padding:"30px 70px 50px 70px",
-                borderRadius:'30px'
-               
+                margin: "0px 20px 40px 20px",
+                backgroundColor: "#f8fbff",
+                borderRadius: "30px",
+                height:'100%',
+                width:'60%'
               }}
-            >  <div style={{display:'flex',justifyContent:'flex-end'}}><ZoomIn /></div>
-                <img src={anatomy} width={"100%"} height={"100%"}/>
+            >
+              {" "}
+              <div style={{ display: "flex", justifyContent: "flex-end",margin:'20px 20px 0px 20px ' }}>
+                <ZoomIn color="grey"/>
+              </div>
+              <div
+                style={{
+                  height: "90%",
+                  width: "100%",
+                  padding: "0px 70px 20px 70px",
+                  borderRadius: "30px",
+                }}
+              >
+                <img src={anatomy} width={"100%"} height={"100%"} />
+              </div>
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div

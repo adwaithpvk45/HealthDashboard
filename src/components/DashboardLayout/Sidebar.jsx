@@ -1,7 +1,15 @@
 import { NavLink } from "react-router-dom";
 import "../style.css";
-import { ArrowUpDown, Calendar, ChartLine, LayoutDashboard, MessageCircle, Phone, Settings, SquarePlus } from "lucide-react";
-
+import {
+  ArrowUpDown,
+  Calendar,
+  ChartLine,
+  LayoutDashboard,
+  MessageCircle,
+  Phone,
+  Settings,
+  SquarePlus,
+} from "lucide-react";
 
 export default function Sidebar() {
   return (
@@ -11,9 +19,15 @@ export default function Sidebar() {
           display: "flex",
           backgroundColor: "#f8fbff",
           padding: "50px 30px 80px 70px",
-          borderTopLeftRadius: "50px",
-          borderBottomLeftRadius: "50px",
+          // borderTopLeftRadius: "50px",
+          // borderBottomLeftRadius: "50px",
           flexDirection: "column",
+          height: "100vh",
+          overflowY: "auto",
+          // position:'sticky'
+          width: "400px",
+          minWidth: "250px",
+          top: 0,
         }}
       >
         <div style={{ display: "flex", justifyContent: "flex-start" }}>
@@ -139,19 +153,18 @@ export default function Sidebar() {
               paddingTop: "30px",
             }}
           >
-            <div  style={{
-              display: "flex",
-              color: "lightgrey",
-              flex: 1,
-              paddingTop: "30px",
-              alignItems:'flex-end'
-            }}>
-                 <Settings
-              style={{marginRight: "20px"}}
-            />
-            Setting
+            <div
+              style={{
+                display: "flex",
+                color: "lightgrey",
+                flex: 1,
+                paddingTop: "30px",
+                alignItems: "flex-end",
+              }}
+            >
+              <Settings style={{ marginRight: "20px" }} />
+              Setting
             </div>
-           
           </NavLink>
           {/* </nav> */}
         </div>

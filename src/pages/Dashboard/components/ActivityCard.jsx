@@ -5,9 +5,10 @@ export default function ActivityCard() {
         backgroundColor: "#f8fbff",
         padding: "3px 20px 0px 20px",
         borderRadius: "20px",
+        margin:'0px 0px 30px 0px'
       }}
     >
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between"}}>
         <h5>Activity</h5>
         <h6 style={{color:'lightgrey'}}>3 appointment on this week</h6>
       </div>

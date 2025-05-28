@@ -6,6 +6,9 @@
   height: 100vh;
   text-align: center;
 }
+* {
+  box-sizing: border-box;
+}
 
 .logo {
   height: 6em;

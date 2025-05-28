@@ -62,8 +62,8 @@ export default function Schedule() {
       style={{
         padding: "66px 30px 0px 30px",
         backgroundColor: "#f8fbff",
-        borderTopRightRadius: "50px",
-        borderBottomRightRadius: "50px",
+        // borderTopRightRadius: "50px",
+        // borderBottomRightRadius: "50px",
         // height: "100vh",
       }}
     >
@@ -98,7 +98,7 @@ export default function Schedule() {
         <div>
           <div style={{ display:'flex',justifyContent:'space-between'}}>
             <h5 style={{margin:'20px 0px 0px 25px',color:'#3E36C9'}}>October 2021</h5>
-            <div style={{display:'flex',alignItems:'flex-end'}}>
+            <div style={{display:'flex',alignItems:'flex-end',margin:'0px 10px 0px 0px',gap:'10px'}}>
               <ArrowLeft size={20} color="#613583" strokeWidth={1.75} />
               <ArrowRight size={20} color="#613583" strokeWidth={1.75} />
             </div>

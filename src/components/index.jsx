@@ -1,16 +1,18 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "./DashboardLayout/Sidebar";
 
-export default function Index(){
-    return (
-        <div style={{display:'flex'}}>
-            <Sidebar/>
-      {/* <div style={{ padding: '1rem', flexGrow: 1 }}>                <Topbar/> */}
-                <main >
-                   <Outlet/>
-                </main>
-            {/* </div> */}
-        </div>
-    )
-
+export default function Index() {
+  return (
+    <div style={{ display: "flex", height: "100vh", overflow: "hidden" }}>
+      <Sidebar />
+      <main
+        style={{
+          flexGrow: 1,
+          overflowY: "auto",
+        }}
+      >
+        <Outlet />
+      </main>
+    </div>
+  );
 }
