@@ -68,7 +68,7 @@ export default function Dashboard() {
                 <img src={anatomy} width={"100%"} height={"100%"} />
               </div>
             </div>
-            <div style={{ display: "flex", flexDirection: "column" }}>
+            <div style={{ display: "flex", flexDirection: "column",width:'40%'}}>
               <div
                 style={{
                   display: "flex",
@@ -114,7 +114,7 @@ export default function Dashboard() {
                     Details
                   </h6>{" "}
                   <ArrowRight
-                    size={12}
+                    size={20}
                     strokeWidth={1.75}
                     style={{ padding: "0px 0px 0px 10px", color: "#3E36C9" }}
                   />
