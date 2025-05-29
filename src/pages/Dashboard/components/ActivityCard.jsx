@@ -9,7 +9,7 @@ export default function ActivityCard() {
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between"}}>
-        <h5>Activity</h5>
+        <h5 style={{color:'#3E36C9'}}>Activity</h5>
         <h6 style={{color:'lightgrey'}}>3 appointment on this week</h6>
       </div>
       <div style={{display:'flex',flexDirection:'column'}}>

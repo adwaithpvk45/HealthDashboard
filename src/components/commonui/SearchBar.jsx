@@ -21,8 +21,8 @@ export default function SearchBar() {
         alignItems: "center",
         width: "100%",
       }}>
-        <Search />
-        <input type="text" placeholder="Search" style={{ border: "0px",width:'100%',padding:'0px 10px'}} />
+        <Search color="darkgrey" />
+        <input type="text" placeholder="Search" style={{ border: "0px",width:'100%',padding:'0px 10px',backgroundColor:'white'}} />
       </div>
       <div
         style={{

@@ -3,14 +3,11 @@ import Sidebar from "./DashboardLayout/Sidebar";
 
 export default function Index() {
   return (
-    <div style={{ display: "flex", height: "100vh", overflow: "hidden" }}>
-      <Sidebar />
-      <main
-        style={{
-          flexGrow: 1,
-          overflowY: "auto",
-        }}
-      >
+    <div className="layout-container">
+      <div className="sidebar">
+        <Sidebar />
+      </div>
+      <main className="main-content">
         <Outlet />
       </main>
     </div>

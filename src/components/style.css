@@ -3,3 +3,12 @@
     flex-direction: column;
     row-gap: 30px;
 }
+
+.sidebar {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* Internet Explorer 10+ */
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari, Opera */
+}
