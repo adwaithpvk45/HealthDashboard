@@ -31,7 +31,7 @@ export default function Sidebar() {
           </NavLink>
 
           <NavLink
-            to="/dashboard"
+            to="/History"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             <ArrowUpDown />
@@ -39,7 +39,7 @@ export default function Sidebar() {
           </NavLink>
 
           <NavLink
-            to="/dashboard"
+            to="/Calendar"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             <Calendar />
@@ -47,7 +47,7 @@ export default function Sidebar() {
           </NavLink>
 
           <NavLink
-            to="/dashboard"
+            to="/Appointments"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             <SquarePlus />
@@ -55,7 +55,7 @@ export default function Sidebar() {
           </NavLink>
 
           <NavLink
-            to="/dashboard"
+            to="/Statistics"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             <ChartLine />
